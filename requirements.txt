@@ -1,0 +1,10 @@
+asgiref==3.4.1
+Django==3.2.7
+djangorestframework==3.12.4
+future==0.18.2
+iso8601==0.1.16
+lesson==0.0.1
+pytz==2021.1
+PyYAML==5.4.1
+serial==0.0.97
+sqlparse==0.4.2

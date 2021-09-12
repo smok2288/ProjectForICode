@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+   .btn {
+    display: inline-block;
+    background: #8C959D;
+    color: #fff;
+    padding: 1rem 1.5rem;
+    text-decoration: none;
+    border-radius: 3px;
+   }
+  </style>
+<body>
+
+<h1>Здесь, с помощью API, вы можете посмтореть информацию об учителях, учениках и предметах</h1>
+<br/>
+<h2>Информация об учениках. Для изменения информации добавьте id ученика в конец url</h2>
+<a href="{% url 'school:students'%}" class="btn">Перейти</a>
+<h2>Информация об учителях. </h2>
+<a href="{% url 'school:teachers'%}" class="btn">Перейти</a>
+<h2>Информация об предметах. </h2>
+<a href="{% url 'school:subject'%}" class="btn">Перейти</a>
+<h2>Информация об учебном процессе. </h2>
+<a href="{% url 'school:lessons'%}" class="btn">Перейти</a>
+</body>
+</html>
